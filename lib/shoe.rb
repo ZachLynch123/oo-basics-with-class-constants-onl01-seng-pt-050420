@@ -10,6 +10,7 @@ class Shoe
     if BRANDS.exlude?(brand)
     BRANDS << @brand
   end
+  end
 
   def cobble
     self.condition = "new"
